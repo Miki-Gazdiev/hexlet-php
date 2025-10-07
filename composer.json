@@ -1,0 +1,15 @@
+{
+    "name": "mikigazdiev/hexlet-php",
+    "autoload": {
+        "psr-4": {
+            "Mikigazdiev\\HexletPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "miki",
+            "email": "mikigazdiev@yandex.ru"
+        }
+    ],
+    "require": {}
+}
