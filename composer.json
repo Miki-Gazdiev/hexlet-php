@@ -2,8 +2,11 @@
     "name": "mikigazdiev/hexlet-php",
     "autoload": {
         "psr-4": {
-            "Mikigazdiev\\HexletPhp\\": "src/"
-        }
+            "App\\": "src/"
+        },
+        "files": [
+            "src/Runner.php"
+        ]
     },
     "authors": [
         {
@@ -11,5 +14,13 @@
             "email": "mikigazdiev@yandex.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "illuminate/collections": "^12.33"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*"
+    },
+     "scripts" : {
+        "phpcs" : "phpcs"
+    }
 }
